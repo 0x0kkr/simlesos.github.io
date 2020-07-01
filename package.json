@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "theme": "cat ./_theme.config.yml > ./themes/icarus/_config.yml ",
+    "build": "npm run theme && hexo generate",
+    "clean": "npm run theme && hexo clean",
+    "deploy": "npm run theme && hexo deploy",
+    "server": "npm run theme && hexo server"
   },
   "hexo": {
     "version": "4.2.1"

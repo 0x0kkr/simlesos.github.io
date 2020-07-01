@@ -1,0 +1,116 @@
+version: 3.0.0
+variant: default
+
+logo: /img/logo.svg
+
+head:
+  favicon: /img/logo.svg
+  rss: /atom.xml
+
+navbar:
+  # 导航栏菜单项
+  menu:
+    Home: /
+    Archives: /archives
+    Categories: /categories
+    Tags: /tags
+    About: /about
+  # 导航栏右侧的链接
+  links:
+    GitHub:
+      icon: fab fa-github
+      url: "https://github.com/Simlesos"
+
+footer:
+  links:
+    Creative Commons:
+      icon: fab fa-creative-commons
+      url: "https://creativecommons.org/"
+    Attribution 4.0 International:
+      icon: fab fa-creative-commons-by
+      url: "https://creativecommons.org/licenses/by/4.0/"
+
+widgets:
+  - type: profile
+    position: left
+    # 作者名称
+    author: 悠扬若素
+    # 作者头衔
+    author_title: 全干工程师
+    # 作者所在地/公司
+    location: Beijing.
+    # 头像图片地址
+    avatar: /img/freelance.svg
+    # 是否显示圆形头像
+    avatar_rounded: false
+    # Gravatar邮箱(如不设置`avatar`项)
+    gravatar:
+    # 关注按钮链接地址
+    follow_link: "https://github.com/Simlesos"
+    # 社交媒体链接
+    social_links:
+      Github:
+        icon: fab fa-github
+        url: "https://github.com/"
+      Telegram:
+        icon: fab fa-telegram
+        url: "https://t.me/sumizu"
+      Twitter:
+        icon: fab fa-twitter
+        url: "https://twitter.com/simlesos"
+      RSS:
+        icon: fas fa-rss
+        url: "/atom.xml"
+  - type: toc
+    position: right
+  - type: recent_posts
+    position: right
+  - type: tags
+    position: right
+  - type: archives
+    position: right
+
+article:
+  highlight:
+  # 代码高亮主题
+  # https://github.com/highlightjs/highlight.js/tree/master/src/styles
+  theme: atom-one-light
+  # 显示复制代码按钮
+  clipboard: true
+  # 代码块的默认折叠状态。可以是"", "folded", "unfolded"
+  fold: unfolded
+  thumbnail: true
+  readtime: true
+
+sidebar:
+  # 设置sidebar中某个侧边栏的sticky为true来让它的位置固定而不跟随页面滚动。
+  left:
+    sticky: false
+  right:
+    sticky: true
+# donates:
+#   - type: wechat
+#     # 微信二维码图片地址
+#     qrcode: /path/to/wechat/qrcode.png
+#   - type: alipay
+#     # 支付宝二维码图片地址
+#     qrcode: /path/to/alipay/qrcode.png
+
+comment:
+  type: valine
+  app_id: te9qsSske0r6gRXNzA2dY2jA-gzGzoHsz
+  app_key: mbjboIlac3B6K0bqLwC3AYG6
+  placeholder: "" # 可选填
+  avatar: mm # 可选填
+  avatar_force: false # 可选填
+  meta: ["nick", "mail"] # 可选填
+  page_size: 10 # 可选填
+  lang: en # 可选填
+  visitor: false # 可选填
+  highlight: true # 可选填
+  record_ip: false # 可选填
+  enable_qq: false # 可选填
+  required_fields: [] # 可选填
+
+search:
+  type: insight
