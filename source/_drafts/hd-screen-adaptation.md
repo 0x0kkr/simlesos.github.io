@@ -6,3 +6,11 @@ categories: FrontEnd
 tags:
   - CSS
 ---
+
+# 响应式设计
+
+# 自适应设计
+
+# 布局伸缩
+
+# 等比缩放
