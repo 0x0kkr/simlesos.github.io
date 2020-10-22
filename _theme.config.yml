@@ -98,8 +98,8 @@ sidebar:
 
 comment:
   type: valine
-  app_id: te9qsSske0r6gRXNzA2dY2jA-gzGzoHsz
-  app_key: mbjboIlac3B6K0bqLwC3AYG6
+  app_id: cnqSBiEVXKLwT2AfarpLWCet-gzGzoHsz
+  app_key: IvE1FLtMqYWyRvjTPLQghgDU
   placeholder: "" # 可选填
   avatar: mm # 可选填
   avatar_force: false # 可选填
