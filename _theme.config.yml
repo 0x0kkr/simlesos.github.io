@@ -1,10 +1,10 @@
 version: 3.0.0
 variant: default
 
-logo: /img/logo.svg
+logo: /img/favicon.svg
 
 head:
-  favicon: /img/logo.svg
+  favicon: /img/favicon.svg
   rss: /atom.xml
 
 navbar:
@@ -19,7 +19,7 @@ navbar:
   links:
     GitHub:
       icon: fab fa-github
-      url: "https://github.com/Simlesos"
+      url: "https://github.com/0x0kkr"
 
 footer:
   links:
@@ -34,24 +34,24 @@ widgets:
   - type: profile
     position: left
     # 作者名称
-    author: 悠扬若素
+    author: 0x0kkr
     # 作者头衔
     author_title: 全干工程师
     # 作者所在地/公司
     location: Beijing.
     # 头像图片地址
-    avatar: /img/freelance.svg
+    avatar: https://avatars3.githubusercontent.com/u/3820923?s=400&u=6c39d470560e75917366c807f382a913c2c534d0&v=4
     # 是否显示圆形头像
-    avatar_rounded: false
+    avatar_rounded: true
     # Gravatar邮箱(如不设置`avatar`项)
     gravatar:
     # 关注按钮链接地址
-    follow_link: "https://github.com/Simlesos"
+    follow_link: "https://github.com/0x0kkr"
     # 社交媒体链接
     social_links:
       Github:
         icon: fab fa-github
-        url: "https://github.com/"
+        url: "https://github.com/0x0kkr"
       Telegram:
         icon: fab fa-telegram
         url: "https://t.me/sumizu"
